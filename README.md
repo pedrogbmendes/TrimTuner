@@ -10,22 +10,14 @@ Developed in python3
 
 
 ### Instalation:
-* ```download the TrimTuner: 
-```
-git clone https://github.com/pedrogbmendes/TrimTuner.git
-```
-* ```enter in the downloaded directory: 
-```
-cd TrimTuner 
-```
-* ```run the comand to install the required software and python packages: 
-```
-sudo /bin/sh requirements.sh
-```
-* ```run the following command to install TrimTuner: 
-```
-sudo python3 setup.py install
-```
+* download the TrimTuner: 
+```git clone https://github.com/pedrogbmendes/TrimTuner.git```
+* enter in the downloaded directory: 
+```cd TrimTuner```
+* run the comand to install the required software and python packages: 
+```sudo /bin/sh requirements.sh```
+* run the following command to install TrimTuner: 
+```sudo python3 setup.py install```
 
 
 
