@@ -31,6 +31,22 @@ TrimTuner uses RoBO (https://github.com/automl/RoBO) and ir requires the followi
 
 ### Run TrimTuner
 
+Calling TrimTuner:
+'''
+def trimtuner(objective_function, all_configs, constraints, seed, filterHeuristic, model, lower, upper, s_min, s_max,n_init, num_iterations, subsets=[60, 10, 4, 2]):
+'''
 
-
+Input Parameters:
+* objective_function -> ML model to optimize
+* all_configs -> set containing all the possible configurations of the search space
+* constraints -> user-defined QoS constraints
+* seed -> run ID
+* filterHeuristic -> filtering heuristic to select the configurations to test in the acquisition function (cea, random, nofilter, direct, cmaes)
+* model -> modelling techniques (gp (Gaussian Processes) or dt (ensemble of decision trees))
+* lower/ upper -> lower and upper bound of the search space
+* s_min -> minimum dataset size
+* s_max -> full dataset
+* n_init -> number of initial samples to bootstrap the models
+* num_iterations -> stop condition
+* subsets -> possible sub-sampled dataset sizes to use
 

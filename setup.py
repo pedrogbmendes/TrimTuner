@@ -29,7 +29,7 @@ requires = [
     'hpolib2',
     'robo']
 
-setuptools.setup(name='TrimTuner',
+setuptools.setup(name='trimtuner',
                 version='0.0.1',
                 author='Pedro Mendes, Maria Casimiro, Paolo Romano',
                 author_email='pedrogoncalomendes@tecnico.ulisboa.pt',
@@ -41,4 +41,4 @@ setuptools.setup(name='TrimTuner',
                 license='LICENSE.txt',
                 test_suite='robo',
                 install_requires=requires,
-                python_requires='>=3.6',)
+                python_requires='>=3.6')
