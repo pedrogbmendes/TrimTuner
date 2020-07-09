@@ -32,9 +32,9 @@ TrimTuner uses RoBO (https://github.com/automl/RoBO) and ir requires the followi
 ### Run TrimTuner
 
 Calling TrimTuner:
-'''
+```
 def trimtuner(objective_function, all_configs, constraints, seed, filterHeuristic, model, lower, upper, s_min, s_max,n_init, num_iterations, subsets=[60, 10, 4, 2]):
-'''
+```
 
 Input Parameters:
 * objective_function -> ML model to optimize
