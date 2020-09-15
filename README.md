@@ -3,7 +3,7 @@
 TrimTuner jointly optimizes the resource allocation and specific application parameters of machine learning (ML) jobs in the cloud in order to maximize the accuracy of the model subject to user-defined Quality of Service (QoS) constraints on the full dataset. Trimtuner use Bayesian Optimization (BO) techniques to solve the optimization problem. It evaluates only configurations using sub-sampled datasets, which are cheap to train, and through transfer learning techniques leverages the knowledge gained by these cheap evaluation of the objective function to predict and recommend optimal configuration that maximize the accuracy on the full dataset and complies with the constraints. .
 
 
-Paper: (link)
+Paper: (https://github.com/pedrogbmendes/TrimTuner/blob/master/trimtuner.pdf)
 
 
 
