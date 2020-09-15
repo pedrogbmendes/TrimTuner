@@ -7,7 +7,6 @@ Paper: (https://github.com/pedrogbmendes/TrimTuner/blob/master/trimtuner.pdf)
 
 
 
-
 ### Instalation:
 * download the TrimTuner: 
 ```git clone https://github.com/pedrogbmendes/TrimTuner.git```
