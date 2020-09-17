@@ -116,7 +116,7 @@ def trimtuner(objective_function, all_configs, constraints, seed, filterHeuristi
     assert n_init <= num_iterations, "Number of initial points (n_init) has to be smaller than the  number of iterations" 
     assert lower.shape[0] == upper.shape[0], "Dimension miss match between upper and lower bound"
     assert model == "gp" or model == "dt", "ERROR: wrong model techniques. Chose 'gp' for Gaussian Processes or 'dt' for an ensemble decision tress"
-    assert filterHeuristic == "cea" or filterHeuristic == "random", "ERROR: wrong filtering heuristic. Chose 'cea', 'random', or 'nofilter'!"
+    assert filterHeuristic == "cea" or filterHeuristic == "random"  or filterHeuristic == "nofilter", "ERROR: wrong filtering heuristic. Chose 'cea', 'random', or 'nofilter'!"
 
     costCumulative = 0
 
