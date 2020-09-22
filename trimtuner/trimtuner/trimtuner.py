@@ -376,7 +376,7 @@ def trimtuner(objective_function, all_configs, constraints, seed, filterHeuristi
         sys.stdout.flush()
 
         #write logs in the files
-        logs.printLogs(counter_it, inc, 0, inc_acc, inc_cost, tested_config, new_t, 1-new_y, new_c, total_overhead, costCumulative)
+        logs.printLogs(it, inc, 0, inc_acc, inc_cost, tested_config, new_t, 1-new_y, new_c, total_overhead, costCumulative)
 
 
     logs.close()
