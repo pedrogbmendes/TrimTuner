@@ -77,7 +77,7 @@ class Logs():
         #filename += ".txt" 
 
         self.file_logs = open(filename, "w")
-        self.file_logs.write("runID;initSamples;explorationNumber;incumbent;incTime;incAcc;incCost;configTested;Time;Acc;Cost;Overhead;CumulativeCost")
+        self.file_logs.write("runID;initSamples;explorationNumber;incumbent;incTime;incAcc;incCost;configTested;Time;Acc;Cost;Overhead;CumulativeCost;\n")
 
 
     def printLogs(self, it, inc, incTime, incAcc, incCost, conf, confTime, confAcc, confCost, overhead, CumulativeCost):
