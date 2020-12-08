@@ -132,15 +132,22 @@ def testSet():
                             else:
                                 nr_worker = nr_cores/8
 
-                            config = np.zeros((1,6))
+                            #config = np.zeros((1,6))
+                            #config[0,0] = nr_worker
+                            #config[0,1] = lr
+                            #config[0,2] = batch
+                            #config[0,3] = sync
+                            #config[0,4] = flavor
+                            #config[0,5] = s 
 
-                            config[0,0] = nr_worker
-                            config[0,1] = lr
-                            config[0,2] = batch
-                            config[0,3] = sync
-                            config[0,4] = flavor
-                            config[0,5] = s 
-                            
+                            config = np.zeros(6)
+
+                            config[0] = nr_worker
+                            config[1] = lr
+                            config[2] = batch
+                            config[3] = sync
+                            config[4] = flavor
+                            config[5] = s
               
                             all_configs.append(config)    
     return all_configs
